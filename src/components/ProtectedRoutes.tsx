@@ -10,7 +10,6 @@ const ProtectedRoutes = ({ isAuthenticated, onLogout }) => {
     }
 
     const menuItems = [
-        { id: 'kanban', icon: Layout, label: 'Kanban', path: '/dashboard' },
         { id: 'goals', icon: Target, label: 'Goals', path: '/goals' },
         { id: 'projects', icon: FolderOpen, label: 'Projects', path: '/projects' },
         { id: 'calendar', icon: Calendar, label: 'Calendar', path: '/calendar' },
